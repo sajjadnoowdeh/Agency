@@ -12,34 +12,34 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./fontawesome-free-5.15.3-web (1)/fontawesome-free-5.15.3-web/css/all.css">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent1">
 
     <header>
-        <nav class="navbar py-4 navbar-expand-md navbar-dark fixed-top">
-            <div class="container">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" >
+            <div class="container ">
               <a class="navbar-brand" href="#"><img src="./assets/img/navbar-logo.svg" alt=""></a>
               <button class="navbar-toggler py-2"   type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-text"> MENU</span>
                   <span class="navbar-toggler-icon"></span>
               </button>
     
-              <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+              <div class="collapse navbar-collapse nav-pills " id="navbarSupportedContent1">
                 <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">SERVICES</a>
+                    <a class="nav-link active" href="#section-services"">SERVICES</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">PORTFOLIO</a>
+                    <a class="nav-link" href="#section-portfolio"">PORTFOLIO</a>
                   </li>
                
                   <li class="nav-item">
-                    <a class="nav-link " href="#">ABOUT</a>
+                    <a class="nav-link " href="#section-about">ABOUT</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " href="#">TEAM</a>
+                    <a class="nav-link " href="#section-team"">TEAM</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " href="#">COUNTACT</a>
+                    <a class="nav-link " href="#section-cantact">COUNTACT</a>
                   </li>
                 </ul>
              
@@ -53,593 +53,601 @@
             <button class="btn btn-warning py-3 px-4 text-white header-btn">TELL ME MORE</button>
         </div>
     </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#navbarSupportedContent1" data-bs-offset="0" class="scrollspy-example">
     <!-------------Section-Services-----------  -->
-    <section class="py-5 section-services">
-        <div class="container">
-          <div class="top-services text-center mb-5">
-            <h1 class="top-services-title"">SERVICES</h1>
-            <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="logo-service ">
-                <div class="back d-flex m-auto justify-content-center">
-                  <img width="70px" src="./assets/service-1.svg" alt="">
-                </div>
-              </div>
-              <h4 class="title-logo text-center py-3">E-Commerce</h4>
-              <p class="service-desc text-muted text-center">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-              </p>
-            </div>
-            <div class="col-md-4 ">
-              <div class="logo-service text-center">
-                <div class="back d-flex m-auto justify-content-center">
-                  <img width="70px" src="./assets/srvice-2.svg" alt="">
-                </div>
-              </div>
-              <h4 class="title-logo text-center py-3">Responsive Design</h4>
-              <p class="service-desc text-muted text-center">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-              </p>
-            </div>
-            <div class="col-md-4 ">
-              <div class="logo-service text-center">
-                <div class="back d-flex m-auto justify-content-center">
-                  <img width="50px" src="./assets/service-3.svg" alt="">
-                </div>
-              </div>
-              <h4 class="title-logo text-center py-3">Web Security</h4>
-              <p class="service-desc text-muted text-center">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-              </p>
-            </div>
-            
-          </div>
-        </div>
-    </section>
-    <!--------------Section-Portfolio----  -->
-    <section class="py-5 section-portfolio">
+    <section class="py-5 section-services" id="section-services">
       <div class="container">
         <div class="top-services text-center mb-5">
-          <h1 class="top-services-title"">PORTFOLIO</h1>
+          <h1 class="top-services-title"">SERVICES</h1>
           <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
         </div>
-
         <div class="row">
-          <div class="col-md-4 mb-4">
-            <div class="card border-0">
-               <div class="card-img" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                 <img src="./assets/1.jpg" class="img-fluid" alt="">
-                 <div class="card-bg-hover "><img width="40px" src="./assets/sum.svg" alt=""></div>
-               </div>
-               <div class="card-main py-4 text-center">
-                 <h4 class="card-title">Threads</h4>
-                 <p class="card-txt text-muted m-0"><em>Illustration</em></p>
-               </div>
-            </div>
-        
-
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-                <div class="modal-header border-0">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="top-services text-center mb-5">
-                    <h1 class="top-services-title"">Threads</h1>
-                    <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
-                  </div>
-                  <div class="row">
-                    <div class="col-12 text-center">
-                      <img src="./assets/1.jpg" class="img-fluid" alt="">
-                      <p class="m-auto text-modal py-4">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                      <ul class="list">
-                           <li class="list-unstyled"> <strong>Client: </strong>Threads</li>
-                           <li class="list-unstyled"> <strong>Category: </strong>Illustration</li>
-
-                      </ul>
-                       
-                    </div>
-                  </div>
-                </div>
-                <button class=" m-auto px-5 mb-5 d-flex align-items-center justify-content-center text-white btn-modal" data-bs-dismiss="modal" aria-label="Close">
-                  <img width="15px" src="./assets/close.svg" alt="">
-                  <p class="d-flex align-items-center justify-content-center h-100 txt-close text-uppercase">Close Project</p>
-                </button>
+          <div class="col-md-4">
+            <div class="logo-service ">
+              <div class="back d-flex m-auto justify-content-center">
+                <img width="70px" src="./assets/service-1.svg" alt="">
               </div>
             </div>
+            <h4 class="title-logo text-center py-3">E-Commerce</h4>
+            <p class="service-desc text-muted text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+            </p>
           </div>
-
-
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card border-0">
-               <div class="card-img" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                 <img src="./assets/2.jpg" class="img-fluid" alt="">
-                 <div class="card-bg-hover "><img width="40px" src="./assets/sum.svg" alt=""></div>
-               </div>
-               <div class="card-main py-4 text-center">
-                 <h4 class="card-title">Explore</h4>
-                 <p class="card-txt text-muted m-0"><em>Graphic Design</em></p>
-               </div>
-            </div>
-        
-
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-                <div class="modal-header border-0">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="top-services text-center mb-5">
-                    <h1 class="top-services-title"">Explore</h1>
-                    <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
-                  </div>
-                  <div class="row">
-                    <div class="col-12 text-center">
-                      <img src="./assets/2.jpg" class="img-fluid" alt="">
-                      <p class="m-auto text-modal py-4">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                      <ul class="list">
-                           <li class="list-unstyled"> <strong>Client: </strong>Explore</li>
-                           <li class="list-unstyled"> <strong>Category: </strong>Graphic Design</li>
-
-                      </ul>
-                       
-                    </div>
-                  </div>
-                </div>
-                <button class=" m-auto px-5 mb-5 d-flex align-items-center justify-content-center text-white btn-modal" data-bs-dismiss="modal" aria-label="Close">
-                  <img width="15px" src="./assets/close.svg" alt="">
-                  <p class="d-flex align-items-center justify-content-center h-100 txt-close text-uppercase">Close Project</p>
-                </button>
+          <div class="col-md-4 ">
+            <div class="logo-service text-center">
+              <div class="back d-flex m-auto justify-content-center">
+                <img width="70px" src="./assets/srvice-2.svg" alt="">
               </div>
             </div>
+            <h4 class="title-logo text-center py-3">Responsive Design</h4>
+            <p class="service-desc text-muted text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+            </p>
           </div>
-
-
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card border-0">
-               <div class="card-img" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                 <img src="./assets/3.jpg" class="img-fluid" alt="">
-                 <div class="card-bg-hover "><img width="40px" src="./assets/sum.svg" alt=""></div>
-               </div>
-               <div class="card-main py-4 text-center">
-                 <h4 class="card-title">Finish</h4>
-                 <p class="card-txt text-muted m-0"><em>Identity</em></p>
-               </div>
-            </div>
-        
-
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-                <div class="modal-header border-0">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="top-services text-center mb-5">
-                    <h1 class="top-services-title"">Finish</h1>
-                    <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
-                  </div>
-                  <div class="row">
-                    <div class="col-12 text-center">
-                      <img src="./assets/3.jpg" class="img-fluid" alt="">
-                      <p class="m-auto text-modal py-4">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                      <ul class="list">
-                           <li class="list-unstyled"> <strong>Client: </strong>Finish</li>
-                           <li class="list-unstyled"> <strong>Category: </strong>Identity</li>
-
-                      </ul>
-                       
-                    </div>
-                  </div>
-                </div>
-                <button class=" m-auto px-5 mb-5 d-flex align-items-center justify-content-center text-white btn-modal" data-bs-dismiss="modal" aria-label="Close">
-                  <img width="15px" src="./assets/close.svg" alt="">
-                  <p class="d-flex align-items-center justify-content-center h-100 txt-close text-uppercase">Close Project</p>
-                </button>
+          <div class="col-md-4 ">
+            <div class="logo-service text-center">
+              <div class="back d-flex m-auto justify-content-center">
+                <img width="50px" src="./assets/service-3.svg" alt="">
               </div>
             </div>
-          </div>
-
-
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card border-0">
-               <div class="card-img" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                 <img src="./assets/4.jpg" class="img-fluid" alt="">
-                 <div class="card-bg-hover "><img width="40px" src="./assets/sum.svg" alt=""></div>
-               </div>
-               <div class="card-main py-4 text-center">
-                 <h4 class="card-title">Lines</h4>
-                 <p class="card-txt text-muted m-0"><em>Branding</em></p>
-               </div>
-            </div>
-        
-
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-                <div class="modal-header border-0">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="top-services text-center mb-5">
-                    <h1 class="top-services-title"">Lines</h1>
-                    <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
-                  </div>
-                  <div class="row">
-                    <div class="col-12 text-center">
-                      <img src="./assets/4.jpg" class="img-fluid" alt="">
-                      <p class="m-auto text-modal py-4">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                      <ul class="list">
-                           <li class="list-unstyled"> <strong>Client: </strong>Lines</li>
-                           <li class="list-unstyled"> <strong>Category: </strong>Branding</li>
-
-                      </ul>
-                       
-                    </div>
-                  </div>
-                </div>
-                <button class=" m-auto px-5 mb-5 d-flex align-items-center justify-content-center text-white btn-modal" data-bs-dismiss="modal" aria-label="Close">
-                  <img width="15px" src="./assets/close.svg" alt="">
-                  <p class="d-flex align-items-center justify-content-center h-100 txt-close text-uppercase">Close Project</p>
-                </button>
-              </div>
-            </div>
-          </div>
-
-
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card border-0">
-               <div class="card-img" data-bs-toggle="modal" data-bs-target="#exampleModal5">
-                 <img src="./assets/5.jpg" class="img-fluid" alt="">
-                 <div class="card-bg-hover "><img width="40px" src="./assets/sum.svg" alt=""></div>
-               </div>
-               <div class="card-main py-4 text-center">
-                 <h4 class="card-title">Southwest</h4>
-                 <p class="card-txt text-muted m-0"><em>Website Design
-                </em></p>
-               </div>
-            </div>
-        
-
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-                <div class="modal-header border-0">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="top-services text-center mb-5">
-                    <h1 class="top-services-title"">Southwest</h1>
-                    <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
-                  </div>
-                  <div class="row">
-                    <div class="col-12 text-center">
-                      <img src="./assets/5.jpg" class="img-fluid" alt="">
-                      <p class="m-auto text-modal py-4">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                      <ul class="list">
-                           <li class="list-unstyled"> <strong>Client: </strong>Southwest</li>
-                           <li class="list-unstyled"> <strong>Category: </strong>Website Design
-                           </li>
-
-                      </ul>
-                       
-                    </div>
-                  </div>
-                </div>
-                <button class=" m-auto px-5 mb-5 d-flex align-items-center justify-content-center text-white btn-modal" data-bs-dismiss="modal" aria-label="Close">
-                  <img width="15px" src="./assets/close.svg" alt="">
-                  <p class="d-flex align-items-center justify-content-center h-100 txt-close text-uppercase">Close Project</p>
-                </button>
-              </div>
-            </div>
-          </div>
-
-
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card border-0">
-               <div class="card-img" data-bs-toggle="modal" data-bs-target="#exampleModal6">
-                 <img src="./assets/6.jpg" class="img-fluid" alt="">
-                 <div class="card-bg-hover "><img width="40px" src="./assets/sum.svg" alt=""></div>
-               </div>
-               <div class="card-main py-4 text-center">
-                 <h4 class="card-title">Window</h4>
-                 <p class="card-txt text-muted m-0"><em>Photography</em></p>
-               </div>
-            </div>
-        
-
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-                <div class="modal-header border-0">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="top-services text-center mb-5">
-                    <h1 class="top-services-title"">Window</h1>
-                    <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
-                  </div>
-                  <div class="row">
-                    <div class="col-12 text-center">
-                      <img src="./assets/6.jpg" class="img-fluid" alt="">
-                      <p class="m-auto text-modal py-4">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                      <ul class="list">
-                           <li class="list-unstyled"> <strong>Client: </strong>Window</li>
-                           <li class="list-unstyled"> <strong>Category: </strong>Photography</li>
-
-                      </ul>
-                       
-                    </div>
-                  </div>
-                </div>
-                <button class=" m-auto px-5 mb-5 d-flex align-items-center justify-content-center text-white btn-modal" data-bs-dismiss="modal" aria-label="Close">
-                  <img width="15px" src="./assets/close.svg" alt="">
-                  <p class="d-flex align-items-center justify-content-center h-100 txt-close text-uppercase">Close Project</p>
-                </button>
-              </div>
-            </div>
-          </div>
-
-
-          </div>
-        
-        </div>
-      </div>
-    </section>
-    <!-- -----------Section-About----------- -->
-    <section class="py-5 section-about">
-        <div class="container">
-          <div class="top-services text-center mb-5">
-            <h1 class="top-services-title"">ABOUT</h1>
-            <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
-          </div>
-
-        <div class="desc-about">
-          <div class="row pt-3 main-about">
-            <div class="col-9 col-md-5 order-1 order-md-0 ps-2 ps-md-0">
-               <div class="about">
-                <h5 class="about-title">2009-2011</h5>
-                <h5 class="about-sub-title">Our Humble Beginnings</h5>
-                <p class="about-desc text-muted">
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-                </p>
-               </div>
-            </div>
-            <div class="col-3 col-md-7 order-0 order-md-1">
-                  <div class="about-bg">
-                    <img src="./assets/about1.jpg" class="img-fluid" alt="">
-                  </div>
-            </div>
-          </div>
-          <div class="row main-about">
-    
-            <div class="col-9 col-md-5 order-1 order-md-1 ps-2 ">
-               <div class="about" style="direction: ltr;">
-                <h5 class="about-title">March 2011</h5>
-                <h5 class="about-sub-title">An Agency is Born</h5>
-                <p class="about-desc text-muted">
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-                </p>
-               </div>
-            </div>
-            <div class="col-3 col-md-7 order-0 order-md-0 d-md-flex justify-content-md-end">
-                  <div class="about-bg">
-                    <img src="./assets/about2.jpg" class="img-fluid" alt="">
-                  </div>
-            </div>
-          </div>
-          <div class="row  main-about ">
-            <div class="col-9 col-md-5 order-1 order-md-0 ps-2 ps-md-0">
-               <div class="about">
-                <h5 class="about-title">December 2015</h5>
-                <h5 class="about-sub-title">Transition to Full Service</h5>
-                <p class="about-desc text-muted">
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-                </p>
-               </div>
-            </div>
-            <div class="col-3 col-md-7 order-0 order-md-1">
-                  <div class="about-bg">
-                    <img src="./assets/about3.jpg" class="img-fluid" alt="">
-                  </div>
-            </div>
-          </div>
-          <div class="row main-about">
-            <div class="col-9 col-md-5 order-1 order-md-1 ps-2 ">
-               <div class="about" style="direction: ltr;">
-                <h5 class="about-title">July 2020</h5>
-                <h5 class="about-sub-title">Phase Two Expansion</h5>
-                <p class="about-desc text-muted">
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-                </p>
-               </div>
-            </div>
-            <div class="col-3 col-md-7 order-0 order-md-0 d-md-flex justify-content-md-end">
-                  <div class="about-bg">
-                    <img src="./assets/about4.jpg" class="img-fluid" alt="">
-                  </div>
-            </div>
-          </div>
-          <div class="row main-abaut">
-            <div class="col-3 col-md-12 order-0 order-md-0 d-md-flex justify-content-md-center">
-                  <div class="about-bg d-flex justify-content-center " id="last-bg-about">
-                    <h5 class="about-title text-white" style="margin: -9px 0 12 0;"><p>Be Part Of OurStory!</p></h5>
-                  </div>
-            </div>
-          </div>
-        </div>
-        </div>
-    </section>
-    <!-- ------------Section-Team -->
-    <section class="py-5 section-team">
-       <div class="container">
-        <div class="top-services text-center mb-5">
-          <h1 class="top-services-title"">YOUR AMAZING TEAM</h1>
-          <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4 mb-5 mb-md-0 d-flex flex-column align-items-center justify-content-center">
-            <div class="logo-team">
-              <img src="./assets/team1.jpg" class="img-fluid" alt="">
-            </div>
-           <div class="main-team text-center my-3">
-             <h4 class="main-team-title">Parveen Anand</h4>
-             <p class="text-muted main-team-text">Lead Designer</p>
-           </div>
-           <div class="social-team w-100 d-flex  justify-content-center"">
-              <div>
-                <i class="fab fa-twitter"></i>
-              </div>
-              <div class="mx-4"> 
-                <i class="fab fa-facebook-f"></i>
-              </div>
-              <div>
-                <img width="17px" class="icon-instagram" src="./assets/instagram.svg" alt="">
-              </div>
-           </div>
-          </div>
-          <div class="col-md-4 mb-5 mb-md-0 d-flex flex-column align-items-center justify-content-center">
-            <div class="logo-team">
-              <img src="./assets/team2.jpg" class="img-fluid" alt="">
-            </div>
-           <div class="main-team text-center my-3">
-             <h4 class="main-team-title">Diana Petersen</h4>
-             <p class="text-muted main-team-text">Lead Marketer</p>
-           </div>
-           <div class="social-team w-100 d-flex  justify-content-center"">
-              <div>
-                <i class="fab fa-twitter"></i>
-              </div>
-              <div class="mx-4"> 
-                <i class="fab fa-facebook-f"></i>
-              </div>
-              <div>
-                <img width="17px" class="icon-instagram" src="./assets/instagram.svg" alt="">
-              </div>
-           </div>
-          </div>
-          <div class="col-md-4 mb-5 mb-md-0 d-flex flex-column align-items-center justify-content-center">
-            <div class="logo-team">
-              <img src="./assets/team3.jpg" class="img-fluid" alt="">
-            </div>
-           <div class="main-team text-center my-3">
-             <h4 class="main-team-title">Lead Marketer</h4>
-             <p class="text-muted main-team-text">Lead Marketer</p>
-           </div>
-           <div class="social-team w-100 d-flex  justify-content-center"">
-              <div>
-                <i class="fab fa-twitter"></i>
-              </div>
-              <div class="mx-4"> 
-                <i class="fab fa-facebook-f"></i>
-              </div>
-              <div>
-                <img width="17px" class="icon-instagram" src="./assets/instagram.svg" alt="">
-              </div>
-           </div>
-          </div>
-        </div>
-        <p class="bootom-team text-muted m-auto pt-5">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
-        </p>
-       </div>
-    </section>
-    <!-- section-Logos -->
-     <section class="py-5 section-logos">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3  mb-5 mb-md-0 d-flex justify-content-center">
-              <img width="200px" src="./assets/logo1.svg" alt="">
-            </div>
-            <div class="col-md-3 mb-5 mb-md-0 d-flex justify-content-center">
-              <img  width="130px"src="./assets/logo2.svg" alt="">
-            </div>
-            <div class="col-md-3 mb-5 mb-md-0 d-flex justify-content-center">
-              <img width="170x" src="./assets/logo3.svg" alt="">
-            </div>
-            <div class="col-md-3 mb-5 mb-md-0 d-flex justify-content-center">
-              <img width="120px" src="./assets/logo4.svg" alt="">
-            </div>
-          </div>
-        </div>
-     </section>
-     <!-- Section-Cantact ----------->
-     <section class="py-5 section-cantact">
-       <div class="container">
-        <div class="top-services text-center mb-5">
-          <h1 class="top-services-title text-white">CONTACT US</h1>
-          <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
-        </div>
-
-        <div class="row g-3">
-          <div class="col-md-6 d-flex">
-            <div class="row g-2 g-md-0 row-input">
-              <input style="margin: 0px 0 21px 0;"  type="text" class="form-control"  placeholder="Your name">
-              <input style="margin: 0px 0 21px 0;"  type="text" class="form-control"placeholder="Email name">
-              <input  type="text" class="form-control"  placeholder="Your name">
-
-            </div>
+            <h4 class="title-logo text-center py-3">Web Security</h4>
+            <p class="service-desc text-muted text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+            </p>
           </div>
           
-          <div class="col-md-6">
-            <textarea class="form-control" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        </div>
+      </div>
+  </section>
+  <!--------------Section-Portfolio----  -->
+  <section class="py-5 section-portfolio" id="section-portfolio">
+    <div class="container">
+      <div class="top-services text-center mb-5">
+        <h1 class="top-services-title"">PORTFOLIO</h1>
+        <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card border-0">
+             <div class="card-img" data-bs-toggle="modal" data-bs-target="#exampleModal">
+               <img src="./assets/1.jpg" class="img-fluid" alt="">
+               <div class="card-bg-hover "><img width="40px" src="./assets/sum.svg" alt=""></div>
+             </div>
+             <div class="card-main py-4 text-center">
+               <h4 class="card-title">Threads</h4>
+               <p class="card-txt text-muted m-0"><em>Illustration</em></p>
+             </div>
+          </div>
+      
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="top-services text-center mb-5">
+                  <h1 class="top-services-title"">Threads</h1>
+                  <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
+                </div>
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <img src="./assets/1.jpg" class="img-fluid" alt="">
+                    <p class="m-auto text-modal py-4">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                    <ul class="list">
+                         <li class="list-unstyled"> <strong>Client: </strong>Threads</li>
+                         <li class="list-unstyled"> <strong>Category: </strong>Illustration</li>
+
+                    </ul>
+                     
+                  </div>
+                </div>
+              </div>
+              <button class=" m-auto px-5 mb-5 d-flex align-items-center justify-content-center text-white btn-modal" data-bs-dismiss="modal" aria-label="Close">
+                <img width="15px" src="./assets/close.svg" alt="">
+                <p class="d-flex align-items-center justify-content-center h-100 txt-close text-uppercase">Close Project</p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card border-0">
+             <div class="card-img" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+               <img src="./assets/2.jpg" class="img-fluid" alt="">
+               <div class="card-bg-hover "><img width="40px" src="./assets/sum.svg" alt=""></div>
+             </div>
+             <div class="card-main py-4 text-center">
+               <h4 class="card-title">Explore</h4>
+               <p class="card-txt text-muted m-0"><em>Graphic Design</em></p>
+             </div>
+          </div>
+      
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="top-services text-center mb-5">
+                  <h1 class="top-services-title"">Explore</h1>
+                  <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
+                </div>
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <img src="./assets/2.jpg" class="img-fluid" alt="">
+                    <p class="m-auto text-modal py-4">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                    <ul class="list">
+                         <li class="list-unstyled"> <strong>Client: </strong>Explore</li>
+                         <li class="list-unstyled"> <strong>Category: </strong>Graphic Design</li>
+
+                    </ul>
+                     
+                  </div>
+                </div>
+              </div>
+              <button class=" m-auto px-5 mb-5 d-flex align-items-center justify-content-center text-white btn-modal" data-bs-dismiss="modal" aria-label="Close">
+                <img width="15px" src="./assets/close.svg" alt="">
+                <p class="d-flex align-items-center justify-content-center h-100 txt-close text-uppercase">Close Project</p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card border-0">
+             <div class="card-img" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+               <img src="./assets/3.jpg" class="img-fluid" alt="">
+               <div class="card-bg-hover "><img width="40px" src="./assets/sum.svg" alt=""></div>
+             </div>
+             <div class="card-main py-4 text-center">
+               <h4 class="card-title">Finish</h4>
+               <p class="card-txt text-muted m-0"><em>Identity</em></p>
+             </div>
+          </div>
+      
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="top-services text-center mb-5">
+                  <h1 class="top-services-title"">Finish</h1>
+                  <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
+                </div>
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <img src="./assets/3.jpg" class="img-fluid" alt="">
+                    <p class="m-auto text-modal py-4">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                    <ul class="list">
+                         <li class="list-unstyled"> <strong>Client: </strong>Finish</li>
+                         <li class="list-unstyled"> <strong>Category: </strong>Identity</li>
+
+                    </ul>
+                     
+                  </div>
+                </div>
+              </div>
+              <button class=" m-auto px-5 mb-5 d-flex align-items-center justify-content-center text-white btn-modal" data-bs-dismiss="modal" aria-label="Close">
+                <img width="15px" src="./assets/close.svg" alt="">
+                <p class="d-flex align-items-center justify-content-center h-100 txt-close text-uppercase">Close Project</p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card border-0">
+             <div class="card-img" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+               <img src="./assets/4.jpg" class="img-fluid" alt="">
+               <div class="card-bg-hover "><img width="40px" src="./assets/sum.svg" alt=""></div>
+             </div>
+             <div class="card-main py-4 text-center">
+               <h4 class="card-title">Lines</h4>
+               <p class="card-txt text-muted m-0"><em>Branding</em></p>
+             </div>
+          </div>
+      
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="top-services text-center mb-5">
+                  <h1 class="top-services-title"">Lines</h1>
+                  <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
+                </div>
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <img src="./assets/4.jpg" class="img-fluid" alt="">
+                    <p class="m-auto text-modal py-4">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                    <ul class="list">
+                         <li class="list-unstyled"> <strong>Client: </strong>Lines</li>
+                         <li class="list-unstyled"> <strong>Category: </strong>Branding</li>
+
+                    </ul>
+                     
+                  </div>
+                </div>
+              </div>
+              <button class=" m-auto px-5 mb-5 d-flex align-items-center justify-content-center text-white btn-modal" data-bs-dismiss="modal" aria-label="Close">
+                <img width="15px" src="./assets/close.svg" alt="">
+                <p class="d-flex align-items-center justify-content-center h-100 txt-close text-uppercase">Close Project</p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card border-0">
+             <div class="card-img" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+               <img src="./assets/5.jpg" class="img-fluid" alt="">
+               <div class="card-bg-hover "><img width="40px" src="./assets/sum.svg" alt=""></div>
+             </div>
+             <div class="card-main py-4 text-center">
+               <h4 class="card-title">Southwest</h4>
+               <p class="card-txt text-muted m-0"><em>Website Design
+              </em></p>
+             </div>
+          </div>
+      
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="top-services text-center mb-5">
+                  <h1 class="top-services-title"">Southwest</h1>
+                  <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
+                </div>
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <img src="./assets/5.jpg" class="img-fluid" alt="">
+                    <p class="m-auto text-modal py-4">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                    <ul class="list">
+                         <li class="list-unstyled"> <strong>Client: </strong>Southwest</li>
+                         <li class="list-unstyled"> <strong>Category: </strong>Website Design
+                         </li>
+
+                    </ul>
+                     
+                  </div>
+                </div>
+              </div>
+              <button class=" m-auto px-5 mb-5 d-flex align-items-center justify-content-center text-white btn-modal" data-bs-dismiss="modal" aria-label="Close">
+                <img width="15px" src="./assets/close.svg" alt="">
+                <p class="d-flex align-items-center justify-content-center h-100 txt-close text-uppercase">Close Project</p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card border-0">
+             <div class="card-img" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+               <img src="./assets/6.jpg" class="img-fluid" alt="">
+               <div class="card-bg-hover "><img width="40px" src="./assets/sum.svg" alt=""></div>
+             </div>
+             <div class="card-main py-4 text-center">
+               <h4 class="card-title">Window</h4>
+               <p class="card-txt text-muted m-0"><em>Photography</em></p>
+             </div>
+          </div>
+      
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="top-services text-center mb-5">
+                  <h1 class="top-services-title"">Window</h1>
+                  <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
+                </div>
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <img src="./assets/6.jpg" class="img-fluid" alt="">
+                    <p class="m-auto text-modal py-4">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                    <ul class="list">
+                         <li class="list-unstyled"> <strong>Client: </strong>Window</li>
+                         <li class="list-unstyled"> <strong>Category: </strong>Photography</li>
+
+                    </ul>
+                     
+                  </div>
+                </div>
+              </div>
+              <button class=" m-auto px-5 mb-5 d-flex align-items-center justify-content-center text-white btn-modal" data-bs-dismiss="modal" aria-label="Close">
+                <img width="15px" src="./assets/close.svg" alt="">
+                <p class="d-flex align-items-center justify-content-center h-100 txt-close text-uppercase">Close Project</p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+      
+      </div>
+    </div>
+  </section>
+  <!-- -----------Section-About----------- -->
+  <section class="py-5 section-about" id="section-about">
+      <div class="container">
+        <div class="top-services text-center mb-5">
+          <h1 class="top-services-title"">ABOUT</h1>
+          <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
+        </div>
+
+      <div class="desc-about">
+        <div class="row pt-3 main-about">
+          <div class="col-9 col-md-5 order-1 order-md-0 ps-2 ps-md-0">
+             <div class="about">
+              <h5 class="about-title">2009-2011</h5>
+              <h5 class="about-sub-title">Our Humble Beginnings</h5>
+              <p class="about-desc text-muted">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+              </p>
+             </div>
+          </div>
+          <div class="col-3 col-md-7 order-0 order-md-1">
+                <div class="about-bg">
+                  <img src="./assets/about1.jpg" class="img-fluid" alt="">
+                </div>
+          </div>
+        </div>
+        <div class="row main-about">
+  
+          <div class="col-9 col-md-5 order-1 order-md-1 ps-2 ">
+             <div class="about" style="direction: ltr;">
+              <h5 class="about-title">March 2011</h5>
+              <h5 class="about-sub-title">An Agency is Born</h5>
+              <p class="about-desc text-muted">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+              </p>
+             </div>
+          </div>
+          <div class="col-3 col-md-7 order-0 order-md-0 d-md-flex justify-content-md-end">
+                <div class="about-bg">
+                  <img src="./assets/about2.jpg" class="img-fluid" alt="">
+                </div>
+          </div>
+        </div>
+        <div class="row  main-about ">
+          <div class="col-9 col-md-5 order-1 order-md-0 ps-2 ps-md-0">
+             <div class="about">
+              <h5 class="about-title">December 2015</h5>
+              <h5 class="about-sub-title">Transition to Full Service</h5>
+              <p class="about-desc text-muted">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+              </p>
+             </div>
+          </div>
+          <div class="col-3 col-md-7 order-0 order-md-1">
+                <div class="about-bg">
+                  <img src="./assets/about3.jpg" class="img-fluid" alt="">
+                </div>
+          </div>
+        </div>
+        <div class="row main-about">
+          <div class="col-9 col-md-5 order-1 order-md-1 ps-2 ">
+             <div class="about" style="direction: ltr;">
+              <h5 class="about-title">July 2020</h5>
+              <h5 class="about-sub-title">Phase Two Expansion</h5>
+              <p class="about-desc text-muted">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+              </p>
+             </div>
+          </div>
+          <div class="col-3 col-md-7 order-0 order-md-0 d-md-flex justify-content-md-end">
+                <div class="about-bg">
+                  <img src="./assets/about4.jpg" class="img-fluid" alt="">
+                </div>
+          </div>
+        </div>
+        <div class="row main-abaut">
+          <div class="col-3 col-md-12 order-0 order-md-0 d-md-flex justify-content-md-center">
+                <div class="about-bg d-flex justify-content-center " id="last-bg-about">
+                  <h5 class="about-title text-white" style="margin: -9px 0 12 0;"><p>Be Part Of OurStory!</p></h5>
+                </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </section>
+  <!-- ------------Section-Team -->
+  <section class="py-5 section-team" id="section-team">
+     <div class="container">
+      <div class="top-services text-center mb-5">
+        <h1 class="top-services-title"">YOUR AMAZING TEAM</h1>
+        <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 mb-5 mb-md-0 d-flex flex-column align-items-center justify-content-center">
+          <div class="logo-team">
+            <img src="./assets/team1.jpg" class="img-fluid" alt="">
+          </div>
+         <div class="main-team text-center my-3">
+           <h4 class="main-team-title">Parveen Anand</h4>
+           <p class="text-muted main-team-text">Lead Designer</p>
+         </div>
+         <div class="social-team w-100 d-flex  justify-content-center"">
+            <div>
+              <i class="fab fa-twitter"></i>
+            </div>
+            <div class="mx-4"> 
+              <i class="fab fa-facebook-f"></i>
+            </div>
+            <div>
+              <img width="17px" class="icon-instagram" src="./assets/instagram.svg" alt="">
+            </div>
+         </div>
+        </div>
+        <div class="col-md-4 mb-5 mb-md-0 d-flex flex-column align-items-center justify-content-center">
+          <div class="logo-team">
+            <img src="./assets/team2.jpg" class="img-fluid" alt="">
+          </div>
+         <div class="main-team text-center my-3">
+           <h4 class="main-team-title">Diana Petersen</h4>
+           <p class="text-muted main-team-text">Lead Marketer</p>
+         </div>
+         <div class="social-team w-100 d-flex  justify-content-center"">
+            <div>
+              <i class="fab fa-twitter"></i>
+            </div>
+            <div class="mx-4"> 
+              <i class="fab fa-facebook-f"></i>
+            </div>
+            <div>
+              <img width="17px" class="icon-instagram" src="./assets/instagram.svg" alt="">
+            </div>
+         </div>
+        </div>
+        <div class="col-md-4 mb-5 mb-md-0 d-flex flex-column align-items-center justify-content-center">
+          <div class="logo-team">
+            <img src="./assets/team3.jpg" class="img-fluid" alt="">
+          </div>
+         <div class="main-team text-center my-3">
+           <h4 class="main-team-title">Lead Marketer</h4>
+           <p class="text-muted main-team-text">Lead Marketer</p>
+         </div>
+         <div class="social-team w-100 d-flex  justify-content-center"">
+            <div>
+              <i class="fab fa-twitter"></i>
+            </div>
+            <div class="mx-4"> 
+              <i class="fab fa-facebook-f"></i>
+            </div>
+            <div>
+              <img width="17px" class="icon-instagram" src="./assets/instagram.svg" alt="">
+            </div>
+         </div>
+        </div>
+      </div>
+      <p class="bootom-team text-muted m-auto pt-5">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+      </p>
+     </div>
+  </section>
+  <!-- section-Logos -->
+   <section class="py-5 section-logos" id="section-logos">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3  mb-5 mb-md-0 d-flex justify-content-center">
+            <img width="200px" src="./assets/logo1.svg" alt="">
+          </div>
+          <div class="col-md-3 mb-5 mb-md-0 d-flex justify-content-center">
+            <img  width="130px"src="./assets/logo2.svg" alt="">
+          </div>
+          <div class="col-md-3 mb-5 mb-md-0 d-flex justify-content-center">
+            <img width="170x" src="./assets/logo3.svg" alt="">
+          </div>
+          <div class="col-md-3 mb-5 mb-md-0 d-flex justify-content-center">
+            <img width="120px" src="./assets/logo4.svg" alt="">
+          </div>
+        </div>
+      </div>
+   </section>
+   <!-- Section-Cantact ----------->
+   <section class="py-5 section-cantact" id="section-cantact">
+     <div class="container">
+      <div class="top-services text-center mb-5">
+        <h1 class="top-services-title text-white">CONTACT US</h1>
+        <p class="top-services-sub-txt text-muted"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-md-6 d-flex">
+          <div class="row g-2 g-md-0 row-input">
+            <input style="margin: 0px 0 21px 0;"  type="text" class="form-control"  placeholder="Your name">
+            <input style="margin: 0px 0 21px 0;"  type="text" class="form-control"placeholder="Email name">
+            <input  type="text" class="form-control"  placeholder="Your name">
+
           </div>
         </div>
         
-        <div class="w-100 text-center pt-5">
-          <button class="btn btn-warning py-3 px-4 text-white header-btn" style="font-weight: bold;">SEND MESSAGE</button>
+        <div class="col-md-6">
+          <textarea class="form-control" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
         </div>
       </div>
-     
-
       
-     </section>
-     <!-- footer -->
-     <footer class="py-4">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 d-flex align-items-center justify-content-center">
-              <p class="m-0 p-0">Copyright © Your Website 2021</p>
-            </div>
-            <div class="col-md-4 d-flex align-items-center justify-content-center py-5 py-md-0">
-              <div class="social-team w-100 d-flex  justify-content-center"">
-                <div>
-                  <i class="fab fa-twitter"></i>
-                </div>
-                <div class="mx-4"> 
-                  <i class="fab fa-facebook-f"></i>
-                </div>
-                <div>
-                  <img width="17px" class="icon-instagram" src="./assets/instagram.svg" alt="">
-                </div>
-             </div>
-            </div>
-            <div class="col-md-4 d-flex align-items-center justify-content-center">
-              <ul class="d-flex align-items-center ">
-                <li class="list-unstyled"><a class="nav-link text-dark m-0" href="#">Privacy Policy</a></li>
-                <li class="list-unstyled"><a class="nav-link text-dark m-0 pe-5 pe-md-0" href="#"> Terms of Use</a></li>
-              </ul>
-            </div>
+      <div class="w-100 text-center pt-5">
+        <button class="btn btn-warning py-3 px-4 text-white header-btn" style="font-weight: bold;">SEND MESSAGE</button>
+      </div>
+    </div>
+   
+
+    
+   </section>
+   <!-- footer -->
+   <footer class="py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 d-flex align-items-center justify-content-center">
+            <p class="m-0 p-0">Copyright © Your Website 2021</p>
+          </div>
+          <div class="col-md-4 d-flex align-items-center justify-content-center py-5 py-md-0">
+            <div class="social-team w-100 d-flex  justify-content-center"">
+              <div>
+                <i class="fab fa-twitter"></i>
+              </div>
+              <div class="mx-4"> 
+                <i class="fab fa-facebook-f"></i>
+              </div>
+              <div>
+                <img width="17px" class="icon-instagram" src="./assets/instagram.svg" alt="">
+              </div>
+           </div>
+          </div>
+          <div class="col-md-4 d-flex align-items-center justify-content-center">
+            <ul class="d-flex align-items-center ">
+              <li class="list-unstyled"><a class="nav-link text-dark m-0" href="#">Privacy Policy</a></li>
+              <li class="list-unstyled"><a class="nav-link text-dark m-0 pe-5 pe-md-0" href="#"> Terms of Use</a></li>
+            </ul>
           </div>
         </div>
-     </footer>
+      </div>
+   </footer>
+    </div>
+
 </body>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
 <script src="./js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
 <script src="./js/bootstrap.min.js"></script>
