@@ -295,4 +295,45 @@ header {
     height: 53.7rem;
   }
 }
+
+.section-team {
+  background-color: #f8f9fa;
+}
+
+.logo-team {
+  width: 220px;
+}
+
+.logo-team img {
+  border-radius: 50%;
+  background: #c6cbd1a6;
+  padding: 8px;
+}
+
+.main-team-title {
+  font-weight: bold;
+}
+
+.main-team-text {
+  font-family: "Roboto Slab", serif;
+}
+
+.social-team > div {
+  background-color: #212529;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  padding: 9px;
+}
+
+.social-team i {
+  font-size: 17px;
+  color: white;
+}
+
+.bootom-team {
+  font-family: "Roboto Slab", serif;
+  max-width: 54rem;
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */
