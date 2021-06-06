@@ -336,4 +336,27 @@ header {
   max-width: 54rem;
   text-align: center;
 }
+
+.section-cantact {
+  background-color: #212529;
+  width: 100%;
+  height: auto;
+  background-image: url(../assets/img/map-image.png);
+}
+
+.section-cantact input::placeholder {
+  color: #cecece;
+  font-weight: bold;
+}
+
+.section-cantact textarea::placeholder {
+  color: #cecece;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .row-input {
+    height: 15rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
