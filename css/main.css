@@ -84,4 +84,28 @@ header {
   background-color: #ffc800;
   border-color: #ffc800;
 }
+
+.top-services-sub-txt {
+  font-family: "Roboto Slab", serif;
+}
+
+.top-services-title {
+  font-weight: bold;
+}
+
+.service-desc {
+  font-family: "Roboto Slab", serif;
+}
+
+.logo-service .back {
+  background-color: #ffc800;
+  border-radius: 50%;
+  width: 121px;
+  height: 121px;
+  padding: 27px;
+}
+
+.title-logo {
+  font-weight: bold;
+}
 /*# sourceMappingURL=main.css.map */
