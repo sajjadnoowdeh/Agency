@@ -108,4 +108,61 @@ header {
 .title-logo {
   font-weight: bold;
 }
+
+.section-portfolio {
+  background-color: #f8f9fa;
+}
+
+.card-img {
+  cursor: pointer;
+  position: relative;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-txt {
+  font-family: "Roboto Slab", serif;
+}
+
+.card-bg-hover {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #ffc800d1 50%, #ffc800d1 50%);
+  transition: all 2s ease;
+  display: none;
+}
+
+.card:hover .card-bg-hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-modal {
+  max-width: 703px;
+  font-family: "Roboto Slab", serif;
+}
+
+.list {
+  font-family: "Roboto Slab", serif;
+}
+
+.list strong {
+  font-weight: bold;
+}
+
+.btn-modal {
+  border: 0;
+  background-color: #ffc800;
+  border-color: #ffc800;
+}
+
+.txt-close {
+  font-weight: bold;
+  padding: 16px 0 0 10px;
+}
 /*# sourceMappingURL=main.css.map */
